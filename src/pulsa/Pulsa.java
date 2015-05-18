@@ -26,5 +26,9 @@ public class Pulsa {
         int no, kode, harga;
         String operator;
     }
+     public void agen() {
+        int id;
+        String nama, alamat;
+    }
 
 }
