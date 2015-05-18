@@ -30,5 +30,8 @@ public class Pulsa {
         int id;
         String nama, alamat;
     }
-
+    public void saldo() {
+        int jml_pengisian, jml_saldo;
+        String tgl_isi;
+    }
 }
