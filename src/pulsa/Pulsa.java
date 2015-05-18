@@ -5,7 +5,6 @@
  */
 package pulsa;
 
-
 /**
  *
  * @author Egi Ramdani
@@ -18,8 +17,14 @@ public class Pulsa {
     public static void main(String[] args) {
         // TODO code application logic here
     }
+
     public void login() {
         String username, passworrd;
     }
-    
+
+    public void master() {
+        int no, kode, harga;
+        String operator;
+    }
+
 }
