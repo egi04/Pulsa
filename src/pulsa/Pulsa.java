@@ -26,12 +26,24 @@ public class Pulsa {
         int no, kode, harga;
         String operator;
     }
-     public void agen() {
+
+    public void agen() {
         int id;
-        String nama, alamat;
+        String nama_konter, alamat;
     }
+
     public void saldo() {
         int jml_pengisian, jml_saldo;
         String tgl_isi;
+    }
+
+    public void transaksi_agen() {
+        String tgl_isi;
+        int kd_agen, nama_konter, jmlh_saldo;
+    }
+
+    public void transaksi_eceran() {
+        String tgl_isi;
+        int no_hp, operator, jumlah_pulsa;
     }
 }
